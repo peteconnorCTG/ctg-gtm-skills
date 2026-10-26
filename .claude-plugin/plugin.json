@@ -1,15 +1,37 @@
 {
-  "name": "explorium-public-skills",
-  "version": "1.0.0",
-  "description": "GTM skills for Claude Code, Codex, and AI agents — B2B data enrichment, prospecting, buying signals, CRM enrichment, and outbound automation powered by Explorium and Vibe Prospecting.",
+  "name": "ctg-gtm-skills",
+  "version": "0.1.0",
+  "description": "CTG GTM skills \u2014 prospecting, enrichment, ICP scoring, and CRM hygiene. Forked from explorium-ai/gtm-skills (MIT).",
   "author": {
-    "name": "Explorium",
-    "url": "https://explorium.ai"
+    "name": "Cloud Tech Gurus"
   },
-  "homepage": "https://explorium.ai",
-  "repository": "https://github.com/explorium-ai/gtm-skills",
+  "homepage": "https://github.com/peteconnorCTG/ctg-gtm-skills",
+  "repository": "https://github.com/peteconnorCTG/ctg-gtm-skills",
   "license": "MIT",
-  "keywords": ["b2b", "prospecting", "enrichment", "gtm", "outbound", "sales", "lead-generation", "lead-gen-tool", "crm-enrichment", "buying-signals", "waterfall-enrichment", "entity-matching", "contact-enrichment", "company-enrichment", "account-research", "mcp", "claude-code", "codex", "abm", "marketing", "linkedin-ads", "zoominfo-alternative"],
+  "keywords": [
+    "b2b",
+    "prospecting",
+    "enrichment",
+    "gtm",
+    "outbound",
+    "sales",
+    "lead-generation",
+    "lead-gen-tool",
+    "crm-enrichment",
+    "buying-signals",
+    "waterfall-enrichment",
+    "entity-matching",
+    "contact-enrichment",
+    "company-enrichment",
+    "account-research",
+    "mcp",
+    "claude-code",
+    "codex",
+    "abm",
+    "marketing",
+    "linkedin-ads",
+    "zoominfo-alternative"
+  ],
   "skills": "./skills/",
   "mcpServers": {
     "vibe-prospecting": {

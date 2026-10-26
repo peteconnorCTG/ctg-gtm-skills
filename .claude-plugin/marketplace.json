@@ -1,22 +1,45 @@
 {
-  "name": "explorium-public-skills",
+  "name": "ctg-gtm-skills",
   "metadata": {
-    "description": "GTM skills for Claude Code and Codex — B2B data enrichment, prospecting, buying signals, CRM enrichment, and outbound automation powered by Explorium and Vibe Prospecting."
+    "description": "CTG internal GTM skills."
   },
   "owner": {
-    "name": "Explorium",
-    "email": "support@explorium.ai"
+    "name": "Cloud Tech Gurus",
+    "email": "pete@cloudtechgurus.com"
   },
   "plugins": [
     {
-      "name": "explorium-public-skills",
+      "name": "ctg-gtm-skills",
       "source": "./",
-      "description": "Run B2B data enrichment, prospecting, outbound, and ABM campaigns as Claude Code skills or Codex plugins. Powered by Explorium's real-time data platform and Vibe Prospecting MCP server. Alternative to ZoomInfo, Apollo.io, Clearbit, and Clay for AI agent workflows.",
-      "homepage": "https://explorium.ai",
-      "repository": "https://github.com/explorium-ai/gtm-skills",
+      "description": "CTG GTM skills \u2014 prospecting, enrichment, ICP scoring, CRM hygiene.",
+      "homepage": "https://github.com/peteconnorCTG/ctg-gtm-skills",
+      "repository": "https://github.com/peteconnorCTG/ctg-gtm-skills",
       "license": "MIT",
       "category": "marketing",
-      "keywords": ["b2b", "prospecting", "enrichment", "gtm", "outbound", "sales", "lead-generation", "lead-gen-tool", "crm-enrichment", "buying-signals", "waterfall-enrichment", "entity-matching", "contact-enrichment", "company-enrichment", "account-research", "mcp", "claude-code", "codex", "abm", "marketing", "linkedin-ads", "zoominfo-alternative"]
+      "keywords": [
+        "b2b",
+        "prospecting",
+        "enrichment",
+        "gtm",
+        "outbound",
+        "sales",
+        "lead-generation",
+        "lead-gen-tool",
+        "crm-enrichment",
+        "buying-signals",
+        "waterfall-enrichment",
+        "entity-matching",
+        "contact-enrichment",
+        "company-enrichment",
+        "account-research",
+        "mcp",
+        "claude-code",
+        "codex",
+        "abm",
+        "marketing",
+        "linkedin-ads",
+        "zoominfo-alternative"
+      ]
     }
   ]
 }
